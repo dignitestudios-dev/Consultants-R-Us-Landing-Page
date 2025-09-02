@@ -26,7 +26,7 @@ function Home() {
         alt="circle"
         width={1000}
         height={1200}
-        className="absolute -left-32 top-[15%]"
+        className="absolute -left-32 top-[5%]"
       />
       <div className="w-[90%] mx-auto ">
         <div className="flex flex-wrap py-10 justify-between">
@@ -34,7 +34,7 @@ function Home() {
             <h1 className="text-[#F9F9F7] text-5xl md:text-6xl font-thin">
               Jobs at Your Fingertips.Your Career Starts Here.
             </h1>
-            <p className="text-[#CECBFF] text-2xl w-[90%]">
+            <p className="text-[#CECBFF] text-2xl w-[90%] font-[350]">
               Smart job matching made simple. Explore thousands of opportunities
               anytime, anywhere.
             </p>
