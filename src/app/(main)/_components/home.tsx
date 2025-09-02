@@ -70,7 +70,7 @@ function Home() {
               </p>
             </div>
             <div className="md:w-[65%]">
-              <div className="flex flex-wrap gap-6">
+              <div className="flex flex-wrap justify-center py-4 md:py-0 gap-6">
                 {[1, 2, 3, 4, 5].map((m) => (
                   <div
                     key={m}
@@ -107,7 +107,7 @@ function Home() {
               <h3 className="bg-white rounded-full text-sm w-[30%] text-black text-center p-1">
                 About Us
               </h3>
-              <h1 className="text-5xl md:pr-12">
+              <h1 className="text-3xl md:text-5xl md:pr-12">
                 Augue risus molestie at augue vestibulum ultricies. Tristique
                 netus.
               </h1>

@@ -8,7 +8,7 @@ export default function ContactUs() {
         
         {/* Left Side - Contact Info */}
         <div className="bg-[#374856] md:p-20 p-10">
-          <h3 className="text-3xl font-semibold mb-2">Our Contact Info:</h3>
+          <h3 className="text-2xl md:text-3xl font-semibold mb-2">Our Contact Info:</h3>
           <p className="text-sm text-gray-300 mb-6 pr-12">
             Please email us with any comments, suggestions or questions.
           </p>
@@ -29,8 +29,8 @@ export default function ContactUs() {
         </div>
 
         {/* Right Side - Form */}
-        <form className="p-16 py-20 bg-[#0F1E27] border border-gray-700 rounded-r-xl">
-          <h3 className="text-3xl font-semibold mb-6">Get in touch with us</h3>
+        <form className="md:p-16 p-5 py-20 bg-[#0F1E27] border border-gray-700 rounded-r-xl">
+          <h3 className="text-2xl md:text-3xl font-semibold mb-6">Get in touch with us</h3>
 
           <div className="mb-4">
             <label className="block text-sm mb-1">Name</label>
