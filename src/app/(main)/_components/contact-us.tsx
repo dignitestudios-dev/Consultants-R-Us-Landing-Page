@@ -3,7 +3,7 @@ import { Mail, MapPin } from "lucide-react";
 
 export default function ContactUs() {
   return (
-    <section className="bg-[#0F1E27] text-white py-20">
+    <section id="contact" className="bg-[#0F1E27] text-white py-20">
       <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 rounded-xl overflow-hidden shadow-lg">
         
         {/* Left Side - Contact Info */}

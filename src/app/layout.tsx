@@ -19,10 +19,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
       suppressHydrationWarning
-        className={`${plusJakarta.className} antialiased bg-[#0F1E27] text-white`}
+        className={`${plusJakarta.className} antialiased bg-[#0F1E27] text-white scroll-smooth`}
       >
         {children}
       </body>

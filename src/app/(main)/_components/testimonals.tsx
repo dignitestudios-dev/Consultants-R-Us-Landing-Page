@@ -24,9 +24,9 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="bg-testimonial">
+    <section id="testimonials" className="bg-testimonial">
       <div className="flex md:flex-row flex-col justify-between">
-        {/* Left Section - Static */}
+     
         <div className="md:w-[50%]">
           <div className="flex justify-start w-full">
             <Image
@@ -48,7 +48,6 @@ export default function Testimonials() {
           </div>
         </div>
 
-        {/* Right Section */}
         <div className="text-black p-10 md:w-[60%]">
           <div className="flex  flex-col items-end">
             {/* Carousel Text Only */}
@@ -66,7 +65,6 @@ export default function Testimonials() {
               </div>
             </div>
 
-            {/* Fixed Navigation Buttons */}
             <div className="flex gap-4 mt-6 h-[80px]">
               <button onClick={scrollPrev} className="border rounded-full p-1">
                 <ChevronLeft size={50} />
