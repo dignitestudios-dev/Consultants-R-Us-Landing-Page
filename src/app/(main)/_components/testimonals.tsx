@@ -13,14 +13,14 @@ export default function Testimonials() {
   const slides = [
     {
       quote:
-        "Imperdiet vitae hendrerit in et. Hendrerit donec in sapien sed neque adipiscing semper fringilla rhoncus.",
-      author: "Sarah Mitchell, Marketing Director at BrightEdge Solutions",
+        "Consultants R US” completely changed the way we hire contractors. It’s fast, easy, and we’ve found better talent faster.",
+      author: "– Sarah M., Operations Manager, Texas Drilling Co.",
     },
-    {
-      quote:
-        "Turpis orci morbi nisi viverra sit ipsum ut sit. Sed ultricies, velit nec laoreet tincidunt.",
-      author: "James Carter, CEO of VisionTech",
-    },
+    // {
+    //   quote:
+    //     "Turpis orci morbi nisi viverra sit ipsum ut sit. Sed ultricies, velit nec laoreet tincidunt.",
+    //   author: "James Carter, CEO of VisionTech",
+    // },
   ];
 
   return (
