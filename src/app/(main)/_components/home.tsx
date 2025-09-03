@@ -26,7 +26,6 @@ const howItWorks = [
   },
 ];
 
-
 function Home() {
   return (
     <div className="">
@@ -88,46 +87,43 @@ function Home() {
             <div className="md:w-[65%]">
               <div className="flex flex-wrap justify-center py-4 md:py-0 gap-6">
                 {[
-                  // Consultants
                   {
                     title: "For Consultants",
                     features: [
-                      "✅ Build a professional profile",
-                      "📅 Set your availability",
-                      "📄 Upload resumes & certifications",
-                      "🔔 Get real-time alerts when shortlisted",
-                      "🗂️ Store documents securely",
+                      "Build a professional profile",
+                      "Set your availability",
+                      "Upload resumes & certifications",
+                      "Get real-time alerts when shortlisted",
+                      "Store documents securely",
                     ],
                   },
-                  // Companies
                   {
                     title: "For Companies",
                     features: [
-                      "🔍 Search & filter consultants",
-                      "🌐 Browse detailed consultant profiles",
-                      "⭐ Shortlist and favorite candidates",
-                      "📤 Contact directly via email or phone",
+                      "Search & filter consultants",
+                      "Browse detailed consultant profiles",
+                      "Shortlist and favorite candidates",
+                      "Contact directly via email or phone",
                     ],
                   },
-                  // Admins
                   {
                     title: "For Admins",
                     features: [
-                      "👤 Manage users",
-                      "✅ Approve/verify profiles",
-                      "📊 Access analytics & platform insights",
-                      "🔧 Control notifications, settings, and permissions",
+                      "Manage users",
+                      "Approve/verify profiles",
+                      "Access analytics & platform insights",
+                      "Control notifications, settings, and permissions",
                     ],
                   },
                 ].map((item, i) => (
                   <div
                     key={i}
-                    className="w-[250px] py-6 p-5 h-[250px] bg-white/20 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 overflow-hidden"
+                    className="w-[250px] h-[250px] py-6 p-5 bg-white/20 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10"
                   >
                     <h2 className="text-lg font-semibold text-white mb-3">
                       {item.title}
                     </h2>
-                    <ul className="text-[#8FB4BA] text-sm space-y-1">
+                    <ul className="text-[#8FB4BA] text-sm list-disc list-outside pl-5 space-y-1">
                       {item.features.map((f, idx) => (
                         <li key={idx}>{f}</li>
                       ))}
@@ -135,8 +131,7 @@ function Home() {
                   </div>
                 ))}
 
-                {/* CTA card */}
-                <div className="w-[250px] py-6 p-5 flex items-center justify-center h-[250px] bg-[#374856] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10">
+                <div className="w-[250px] h-[250px] py-6 p-5 flex items-center justify-center bg-[#374856] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10">
                   <button className="text-black w-[150px] bg-white p-2 px-4 rounded-sm text-sm">
                     Book a Demo
                   </button>
@@ -154,34 +149,34 @@ function Home() {
             className="-left-20 top-0 absolute"
           />
           <div className="flex flex-wrap justify-between font-thin">
-           <div className="md:w-[40%] flex flex-col gap-6">
-      <h3 className="bg-white rounded-full text-sm w-fit px-4 text-black text-center p-1">
-        How It Works
-      </h3>
+            <div className="md:w-[40%] flex flex-col gap-6">
+              <h3 className="bg-white rounded-full text-sm w-fit px-4 text-black text-center p-1">
+                How It Works
+              </h3>
 
-      <h1 className="text-3xl md:text-5xl md:pr-12">
-        Connecting Oilfield Talent with Opportunity
-      </h1>
+              <h1 className="text-3xl md:text-5xl md:pr-12">
+                Connecting Oilfield Talent with Opportunity
+              </h1>
 
-      <p className="md:pr-24 text-gray-300">
-        Get started in minutes and take control of hiring or finding jobs —
-        direct, fast, and cost-effective.
-      </p>
+              <p className="md:pr-24 text-gray-300">
+                Get started in minutes and take control of hiring or finding
+                jobs — direct, fast, and cost-effective.
+              </p>
 
-      <div>
-        <ul className="space-y-4">
-          {howItWorks.map((item, index) => (
-            <li key={index} className="flex items-start gap-3">
-              <Check className="w-5 h-5 text-[#C19A5B] mt-1" />
               <div>
-                <p className="font-semibold text-white">{item.title}</p>
-                <p className="text-sm text-gray-300">{item.desc}</p>
+                <ul className="space-y-4">
+                  {howItWorks.map((item, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-[#C19A5B] mt-1" />
+                      <div>
+                        <p className="font-semibold text-white">{item.title}</p>
+                        <p className="text-sm text-gray-300">{item.desc}</p>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
               </div>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
+            </div>
             <div className="md:w-[30%]  z-50">
               <Image
                 src={"/images/about-grad.png"}
