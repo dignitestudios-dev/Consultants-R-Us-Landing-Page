@@ -26,8 +26,8 @@ function Footer() {
           <div>
             <h1 className="uppercase mb-2 font-semibold">Resources</h1>
             <div className="capitalize flex flex-col gap-1">
-              <Link href="">Privacy Policy</Link>
-              <Link href="">Terms and Conditions</Link>
+              <Link href="privacy-policy">Privacy Policy</Link>
+              <Link href="term-conditions">Terms and Conditions</Link>
               <Link href="">Terms of Service</Link>
             </div>
           </div>
